@@ -36,7 +36,6 @@ RSpec.describe User, type: :model do
       end
   end
 
-
     describe "#reset_session_token!" do
       #reset session_token
       it "resets session token" do
